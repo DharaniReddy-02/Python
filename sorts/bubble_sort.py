@@ -7,6 +7,8 @@ def bubble_sort_iterative(collection: list[Any]) -> list[Any]:
     :param collection: some mutable ordered collection with heterogeneous
     comparable items inside
     :return: the same collection ordered by ascending
+        Time Complexity: O(n^2) - Worst case scenario, when list is reverse sorted.
+            Space Complexity: O(1) - Only uses a constant amount of extra space for variables.
 
     Examples:
     >>> bubble_sort_iterative([0, 5, 2, 3, 2])
